@@ -9,5 +9,8 @@ pipeline {
       } }
     stage('Test1') {
       steps {
-        python --version } }}
+        echo "py --version"
+      }
+    }
+  }
 
