@@ -6,11 +6,13 @@ pipeline {
     stage('Test') {
       steps {
         sh 'node --version'
-      } }
-    stage('Test1') {
+      } 
+    }
+    stage('Deploy') {
       steps {
-        echo "py --version"
+        echo python  
       }
     }
   }
-
+}
+  
